@@ -25,7 +25,7 @@ export default function HeroSection() {
             {/* Hero Content */}
             <div className="relative z-10 flex flex-col items-center justify-center text-blue-100 text-center px-6  max-w-5xl mx-auto  pt-15  gap-6 md:gap-15  ">
                 <h1 className="text-2xl md:text-6xl font-extrabold leading-tight">
-                    Spotless Results, Every Time
+                    Spotless Results Every Time
                 </h1>
                 <p className="text-md md:text-2xl">
                     Trust 805 Cleaning Crew for reliable, top-quality residential and commercial cleaning across the Central Coast.
