@@ -19,15 +19,15 @@ export default function HeroSection() {
                 </div>
 
                 {/* Optional Gradient Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-b from-slate-700/50  to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-b from-slate-900/70  to-transparent" />
             </div>
 
             {/* Hero Content */}
-            <div className="relative z-10 flex flex-col items-center justify-center text-blue-100 text-center px-6  max-w-5xl mx-auto  pt-15  gap-10 md:gap-15  ">
-                <h1 className="text-2xl md:text-7xl font-extrabold leading-tight">
+            <div className="relative z-10 flex flex-col items-center justify-center text-blue-100 text-center px-6  max-w-7xl mx-auto  pt-15  gap-10 md:gap-15  ">
+                <h1 className="text-3xl md:text-9xl font-extrabold leading-tight">
                     805 Cleaning Crew
                 </h1>
-                <p className="text-md md:text-2xl">
+                <p className="text-lg md:text-3xl">
                     Trust 805 Cleaning Crew for reliable, top-quality residential and commercial cleaning across the Central Coast.
                 </p>
                 <Link
