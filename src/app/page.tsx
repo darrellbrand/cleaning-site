@@ -10,7 +10,7 @@ import Footer from './components/Footer'
 
 const page = () => {
   return (
-    <div className='w-full max-h-screen bg-blue-400'>
+    <div className='w-full max-h-screen bg-blue-400 overflow-x-hidden'>
       <Navbar></Navbar>
       <HeroSection></HeroSection>
       <div className="relative">
