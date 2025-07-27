@@ -10,7 +10,7 @@ export default function HeroSection() {
             <div className="absolute inset-0 z-0 flex items-center justify-center pt-10">
                 <div className="relative w-full h-full">
                     <Image
-                        src="/hospital.png"
+                        src="/clean2.jpg"
                         alt="Background"
                         fill
                         className="object-fit object-center opacity-90 mix-blend-overlay"
@@ -19,18 +19,21 @@ export default function HeroSection() {
                 </div>
 
                 {/* Optional Gradient Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-b from-slate-900/70  to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-b from-slate-900/90  to-slate-900/40" />
             </div>
 
             {/* Hero Content */}
-            <div className="relative z-10 flex flex-col items-center justify-between h-full md:pt-26 pb-6  md:pb-16 pt-20  text-blue-100 text-center px-6  max-w-7xl mx-auto    ">
+            <div className="relative z-10 flex flex-col items-center justify-center h-full text-blue-100 text-center px-6  max-w-7xl mx-auto  gap-8 md:pb-40 pt-26 pb-16  ">
                 <h1 className="text-3xl md:text-8xl font-extrabold leading-tight">
                     805 Cleaning Crew
                 </h1>
+                <p className="text-lg md:text-3xl">
+                     Trust 805 Cleaning Crew for reliable, top-quality residential and commercial cleaning across the Central Coast.
+                 </p>
                
                 <Link
                     href="/get-a-quote"
-                    className="inline-block bg-blue-100 text-blue-900 font-semibold py-3 px-6 md:py-6 md:px-9 rounded-full hover:bg-gray-200 transition duration-300 text-lg md:text-2xl"
+                    className="inline-block bg-blue-100 text-blue-900 font-semibold py-2 px-2 md:py-6 md:px-9 rounded-full hover:bg-gray-200 transition duration-300 text-md md:text-2xl"
                 >
                     Get a Free Quote
                 </Link>
