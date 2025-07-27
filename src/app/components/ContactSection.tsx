@@ -2,7 +2,7 @@
 
 export default function ContactSection() {
   return (
-    <section className="bg-blue-300 py-20 px-6 marker-font" id="contact">
+    <section className="bg-blue-300 px-6 marker-font -mt-1 pt-2 " id="contact">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl md:text-5xl font-bold text-blue-700 mb-6">Get in Touch</h2>
         <p className="text-lg text-gray-700 mb-12">
@@ -81,7 +81,7 @@ export default function ContactSection() {
         </form>
 
         {/* Optional contact info */}
-        <div className="mt-12 text-gray-600 text-sm">
+        <div className="mt-12 text-gray-600 text-lg">
           Or reach us directly at <a href="tel:+18055551234" className="text-blue-600">+1 (805) 555-1234</a> or <a href="mailto:info@805cleaningcrew.com" className="text-blue-600">info@805cleaningcrew.com</a>
         </div>
       </div>

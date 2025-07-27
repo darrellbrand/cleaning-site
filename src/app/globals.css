@@ -37,3 +37,6 @@ body {
 .marker-font {
   font-family: var(--font-permanent-marker), cursive;
 }
+html {
+  scroll-behavior: smooth;
+}

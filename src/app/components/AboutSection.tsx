@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function AboutSection() {
   return (
-    <section className="bg-blue-200 py-20 px-6 marker-font" id="about">
+    <section className="bg-blue-200  px-6 marker-font -mt-2" id="about" >
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center ">
         {/* Text Content */}
         <div>
@@ -25,7 +25,7 @@ export default function AboutSection() {
         {/* Image */}
         <div className="relative w-full h-80 md:h-full">
           <Image
-            src="/lady.png" // Replace with your team or workspace image
+            src="/lady-cleaner.png" // Replace with your team or workspace image
             alt="805 Cleaning Crew team"
             layout="fill"
             objectFit="contain"

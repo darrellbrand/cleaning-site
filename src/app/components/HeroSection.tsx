@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function HeroSection() {
     return (
-        <section className="relative md:h-[100vh] h-[60vh] w-screen overflow-hidden bg-blue-200 flex items-center justify-center " id="home">
+        <section className="relative md:h-[100vh] h-[80vh] w-screen overflow-hidden bg-blue-200 flex items-center justify-center " id="home">
             {/* Background Image Container */}
             <div className="absolute inset-0 z-0 flex items-center justify-center pt-10">
                 <div className="relative w-full h-full">
@@ -23,7 +23,7 @@ export default function HeroSection() {
             </div>
 
             {/* Hero Content */}
-            <div className="relative z-10 flex flex-col items-center justify-center h-full marker-font text-blue-50 text-center px-6  max-w-7xl mx-auto  gap-8 md:pb-50 pt-20 pb-16  ">
+            <div className="relative z-10 flex flex-col items-center justify-center h-full marker-font text-blue-50 text-center px-6  max-w-7xl mx-auto  gap-8 md:pb-50  pb-28  ">
                 <h1 className="text-3xl md:text-8xl font-extrabold leading-tight">
                     805 Cleaning Crew
                 </h1>

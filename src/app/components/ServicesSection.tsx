@@ -4,7 +4,7 @@ import { Home, Building2 } from 'lucide-react'; // Icons for services
 
 export default function ServicesSection() {
   return (
-    <section className="bg-blue-400 py-20 px-6 marker-font" id="services">
+    <section className="bg-blue-400   px-6 marker-font" id="services">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl md:text-5xl font-bold text-blue-100 mb-12">
           Our Cleaning Services
