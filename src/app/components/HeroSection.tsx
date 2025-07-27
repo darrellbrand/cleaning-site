@@ -23,16 +23,14 @@ export default function HeroSection() {
             </div>
 
             {/* Hero Content */}
-            <div className="relative z-10 flex flex-col items-center justify-center text-blue-100 text-center px-6  max-w-7xl mx-auto  pt-15  gap-10 md:gap-15  ">
-                <h1 className="text-3xl md:text-9xl font-extrabold leading-tight">
+            <div className="relative z-10 flex flex-col items-center justify-between h-full md:pt-26 pb-6  md:pb-16 pt-20  text-blue-100 text-center px-6  max-w-7xl mx-auto    ">
+                <h1 className="text-3xl md:text-8xl font-extrabold leading-tight">
                     805 Cleaning Crew
                 </h1>
-                <p className="text-lg md:text-3xl">
-                    Trust 805 Cleaning Crew for reliable, top-quality residential and commercial cleaning across the Central Coast.
-                </p>
+               
                 <Link
                     href="/get-a-quote"
-                    className="inline-block bg-blue-100 text-blue-900 font-semibold py-3 px-6 rounded-full hover:bg-gray-200 transition duration-300"
+                    className="inline-block bg-blue-100 text-blue-900 font-semibold py-3 px-6 md:py-6 md:px-9 rounded-full hover:bg-gray-200 transition duration-300 text-lg md:text-2xl"
                 >
                     Get a Free Quote
                 </Link>
