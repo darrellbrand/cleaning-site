@@ -12,13 +12,13 @@ const page = () => {
   return (
     <div className='w-full max-h-screen  overflow-x-hidden scroll-smooth'>
       <Navbar></Navbar>
-      <section className="relative bg-blue-400 overflow-hidden">
+      <section className="relative bg-blue-400 overflow-hidden ">
         {/* Hero Content */}
         <HeroSection />
 
         {/* Bottom Wave Divider */}
         <svg
-          className="w-full h-[120px] block leading-none -mb-1"
+          className="w-full h-[120px] block leading-none "
           viewBox="0 0 1440 150"
           preserveAspectRatio="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -34,16 +34,18 @@ const page = () => {
         L1440,150 L0,150 Z"
           />
         </svg>
-        <AboutSection />
+        <div className="relative z-10">
+          <AboutSection />
+        </div>
       </section>
 
 
 
 
-      <section className="relative bg-blue-400  overflow-hidden">
+      <section className="relative bg-blue-400 -mt-1 overflow-hidden">
         {/* Top Wave */}
         <svg
-          className="w-full h-[100px] block leading-none"
+          className="w-full h-[120px] block leading-none"
           viewBox="0 0 1440 320"
           preserveAspectRatio="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -54,13 +56,16 @@ const page = () => {
           />
         </svg>
 
+        {/* Section Content */}
+        <div className="relative z-10">
+          <ServicesSection />
+        </div>
 
-        <ServicesSection />
 
       </section>
 
 
-      <div className="relative  bg-blue-400 -mt-1">
+      <div className="relative -mt-1 bg-blue-400 ">
         <svg
           className="w-full h-[100px]"
           viewBox="0 0 1440 320"

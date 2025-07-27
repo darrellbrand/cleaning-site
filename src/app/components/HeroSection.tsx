@@ -33,7 +33,7 @@ export default function HeroSection() {
                
                 <Link
                     href="#contact"
-                    className="inline-block bg-blue-100 text-blue-700 font-semibold py-2 px-2 md:py-6 md:px-9 rounded-full hover:bg-gray-200 transition duration-300 text-md md:text-2xl"
+                    className="inline-block bg-blue-100 text-blue-600 font-semibold py-2 px-2 md:py-6 md:px-9 rounded-full hover:bg-gray-200 transition duration-300 text-md md:text-2xl"
                 >
                     Get a Free Quote
                 </Link>
