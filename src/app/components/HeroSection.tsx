@@ -19,7 +19,7 @@ export default function HeroSection() {
                 </div>
 
                 {/* Optional Gradient Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-b from-slate-700/80  to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-b from-slate-700/50  to-transparent" />
             </div>
 
             {/* Hero Content */}
