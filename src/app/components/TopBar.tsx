@@ -8,12 +8,12 @@ export default function Navbar() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-row  justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className="md:text-lg text-sm font-bold text-blue-600">
+          <Link href="/" className="md:text-2xl text-sm font-bold text-blue-600">
             805 Cleaning Crew
           </Link>
 
           {/* Navigation Links */}
-          <ul className=" flex space-x-4 text-blue-900  font-bold text-sm md:text-lg">
+          <ul className=" flex space-x-4 text-blue-900  font-bold text-sm md:text-2xl">
             <li>
               <a href="#about" className="hover:text-blue-600 transition ">About</a>
             </li>
