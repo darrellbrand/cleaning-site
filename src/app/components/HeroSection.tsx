@@ -23,7 +23,7 @@ export default function HeroSection() {
             </div>
 
             {/* Hero Content */}
-            <div className="relative z-10 flex flex-col items-center justify-center h-full marker-font text-blue-50 text-center px-6  max-w-7xl mx-auto  gap-8   pb-60 md:pb-80 ">
+            <div className="relative z-10 flex flex-col items-center justify-center h-full marker-font text-blue-100 text-center px-6  max-w-7xl mx-auto  gap-8   pb-60 md:pb-80 ">
                 <h1 className="text-4xl md:text-8xl font-extrabold leading-tight">
                     805 Cleaning Crew
                 </h1>
@@ -33,7 +33,7 @@ export default function HeroSection() {
                
                 <Link
                     href="#contact"
-                    className="inline-block bg-blue-100 text-blue-600 font-semibold py-2 px-2 md:py-6 md:px-9 rounded-full hover:bg-gray-200 transition duration-300 text-md md:text-2xl"
+                    className="inline-block bg-blue-100 text-blue-600 font-semibold py-2 px-2 md:py-6 md:px-9 rounded-full hover:bg-blue-200 transition duration-300 text-md md:text-2xl"
                 >
                     Get a Free Quote
                 </Link>
