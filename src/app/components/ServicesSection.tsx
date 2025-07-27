@@ -4,9 +4,9 @@ import { Home, Building2 } from 'lucide-react'; // Icons for services
 
 export default function ServicesSection() {
   return (
-    <section className="bg-blue-400 py-20 px-6" id="services">
+    <section className="bg-blue-400 py-20 px-6 marker-font" id="services">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl md:text-5xl font-bold text-blue-900 mb-12">
+        <h2 className="text-3xl md:text-5xl font-bold text-blue-100 mb-12">
           Our Cleaning Services
         </h2>
 
@@ -17,7 +17,7 @@ export default function ServicesSection() {
               <Home className="w-6 h-6 text-blue-700" />
               <h3 className="text-2xl font-semibold text-blue-700">Basic House Cleaning</h3>
             </div>
-            <ul className="list-disc list-inside text-blue-900 space-y-2 mb-4">
+            <ul className="list-disc list-inside text-blue-700 space-y-2 mb-4">
               <li>Dusting all surfaces</li>
               <li>Vacuuming & mopping floors</li>
               <li>Bathroom & kitchen sanitization</li>
@@ -35,7 +35,7 @@ export default function ServicesSection() {
               <Building2 className="w-6 h-6 text-blue-700" />
               <h3 className="text-2xl font-semibold text-blue-700">Commercial Cleaning</h3>
             </div>
-            <ul className="list-disc list-inside text-blue-900 space-y-2 mb-4">
+            <ul className="list-disc list-inside text-blue-700 space-y-2 mb-4">
               <li>Office spaces, retail stores, and restaurants</li>
               <li>Surface disinfection & floor care</li>
               <li>Restroom sanitization</li>

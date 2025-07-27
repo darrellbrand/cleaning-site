@@ -10,22 +10,21 @@ import Footer from './components/Footer'
 
 const page = () => {
   return (
-    <div className='w-full max-h-screen bg-blue-400 overflow-x-hidden'>
+    <div className='w-full max-h-screen bg-blue-400 overflow-x-hiddensd'>
       <Navbar></Navbar>
-      <HeroSection></HeroSection>
-      <div className="relative">
-        <svg
-          className="absolute top-0 left-0 w-full"
-          viewBox="0 0 1440 100"
-          preserveAspectRatio="none"
-        >
-          <path fill="#60A5FA" d="M0,100 C720,0 720,0 1440,100 L1440,0 L0,0 Z"></path>
-        </svg>
-        <section className="bg-blue-200 pt-24">
-          {/* Section content */}
-        </section>
-      </div>
-
+        <HeroSection></HeroSection>
+        <div className="relative">
+          <svg
+            className="absolute top-0 left-0 w-full"
+            viewBox="0 0 1440 100"
+            preserveAspectRatio="none"
+          >
+            <path fill="#60A5FA" d="M0,100 C720,0 720,0 1440,100 L1440,0 L0,0 Z"></path>
+          </svg>
+          <section className="bg-blue-200 pt-24">
+            {/* Section content */}
+          </section>
+        </div>
       <AboutSection></AboutSection>
       <div className="relative -mt-1 bg-blue-400">
         <svg

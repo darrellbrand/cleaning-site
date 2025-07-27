@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function HeroSection() {
     return (
-        <section className="relative md:h-[100vh] h-[50vh] w-screen overflow-hidden bg-blue-200 flex items-center justify-center">
+        <section className="relative md:h-[100vh] h-[60vh] w-screen overflow-hidden bg-blue-200 flex items-center justify-center " id="home">
             {/* Background Image Container */}
             <div className="absolute inset-0 z-0 flex items-center justify-center pt-10">
                 <div className="relative w-full h-full">
@@ -13,17 +13,17 @@ export default function HeroSection() {
                         src="/clean2.jpg"
                         alt="Background"
                         fill
-                        className="object-fit object-center opacity-90 mix-blend-overlay"
+                        className="object-cover object-center opacity-90 mix-blend-overlay"
                         priority
                     />
                 </div>
 
                 {/* Optional Gradient Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-b from-slate-900/90  to-slate-900/40" />
+                <div className="absolute inset-0 bg-gradient-to-b from-slate-600/90  to-slate-600/10" />
             </div>
 
             {/* Hero Content */}
-            <div className="relative z-10 flex flex-col items-center justify-center h-full text-blue-100 text-center px-6  max-w-7xl mx-auto  gap-8 md:pb-40 pt-26 pb-16  ">
+            <div className="relative z-10 flex flex-col items-center justify-center h-full marker-font text-blue-50 text-center px-6  max-w-7xl mx-auto  gap-8 md:pb-50 pt-20 pb-16  ">
                 <h1 className="text-3xl md:text-8xl font-extrabold leading-tight">
                     805 Cleaning Crew
                 </h1>
@@ -32,7 +32,7 @@ export default function HeroSection() {
                  </p>
                
                 <Link
-                    href="/get-a-quote"
+                    href="#contact"
                     className="inline-block bg-blue-100 text-blue-900 font-semibold py-2 px-2 md:py-6 md:px-9 rounded-full hover:bg-gray-200 transition duration-300 text-md md:text-2xl"
                 >
                     Get a Free Quote
