@@ -22,7 +22,7 @@ const page = () => {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="805 Cleaning Crew" />
         <meta property="og:description" content="Professional cleaning services for homes and businesses in the 805 area. Eco-conscious and satisfaction guaranteed." />
-        <meta property="og:image" content="/og-image.jpg" />
+        <meta property="og:image" content="/clean2.jpg" />
         <meta property="og:url" content="https://805cleaningcrew.com" />
         <link rel="canonical" href="https://805cleaningcrew.com" />
       </Head>
