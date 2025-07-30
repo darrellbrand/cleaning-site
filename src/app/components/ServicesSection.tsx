@@ -25,7 +25,7 @@ export default function ServicesSection() {
               <li>Interior window cleaning</li>
             </ul>
             <p className="text-blue-700 font-bold text-lg">
-              Starting at <span className="text-blue-600">$120</span> per session
+              FLexible pricing available
             </p>
           </div>
 
@@ -43,7 +43,7 @@ export default function ServicesSection() {
               <li>Flexible scheduling</li>
             </ul>
             <p className="text-blue-700 font-bold text-lg">
-              Starting at <span className="text-blue-600">$200</span> per visit
+              Call for pricing
             </p>
           </div>
         </div>
