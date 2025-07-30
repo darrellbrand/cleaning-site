@@ -5,12 +5,27 @@ import ServicesSection from './components/ServicesSection'
 import ContactSection from './components/ContactSection'
 import Navbar from './components/TopBar'
 import Footer from './components/Footer'
-
+import Head from 'next/head'
 
 
 const page = () => {
   return (
+
+
+
     <div className='w-full max-h-screen  overflow-x-hidden scroll-smooth'>
+      <Head>
+        <title>805 Cleaning Crew | Residential & Commercial Cleaning Services</title>
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content="805 Cleaning Crew offers top-rated residential, commercial, and deep cleaning services across California’s Central Coast. Reliable, eco-friendly, and detail-driven." />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="805 Cleaning Crew" />
+        <meta property="og:description" content="Professional cleaning services for homes and businesses in the 805 area. Eco-conscious and satisfaction guaranteed." />
+        <meta property="og:image" content="/og-image.jpg" />
+        <meta property="og:url" content="https://805cleaningcrew.com" />
+        <link rel="canonical" href="https://805cleaningcrew.com" />
+      </Head>
       <Navbar></Navbar>
       <section className="relative bg-blue-400 overflow-hidden ">
         {/* Hero Content */}

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://805cleaningcrew.com
+
+# Sitemaps
+Sitemap: https://805cleaningcrew.com/sitemap.xml

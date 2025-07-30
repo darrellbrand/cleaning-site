@@ -82,7 +82,21 @@ export default function ContactSection() {
 
         {/* Optional contact info */}
         <div className="mt-12 text-blue-900 text-lg">
-          Or reach us directly at <a href="tel:+18055551234" className="text-blue-600">+1 (805) 555-1234</a> or <a href="mailto:info@805cleaningcrew.com" className="text-blue-600">info@805cleaningcrew.com</a>
+          Or reach us directly at:
+          <ul className="mt-2 space-y-1 list-disc list-inside text-blue-900">
+            <li>
+              Cristina – <a href="tel:+18055551231" className="text-blue-600">+1 (805) 555-1231</a>
+            </li>
+            <li>
+              Jonathan – <a href="tel:+18055551232" className="text-blue-600">+1 (805) 555-1232</a>
+            </li>
+            <li>
+              Darrell – <a href="tel:+18055551233" className="text-blue-600">+1 (805) 555-1233</a>
+            </li>
+          </ul>
+          <div className="mt-2">
+            Or email us at <a href="mailto:info@805cleaningcrew.com" className="text-blue-600">info@805cleaningcrew.com</a>
+          </div>
         </div>
       </div>
     </section>
