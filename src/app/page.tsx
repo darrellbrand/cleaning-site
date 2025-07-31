@@ -31,25 +31,31 @@ const page = () => {
         {/* Hero Content */}
         <HeroSection />
 
-        {/* Bottom Wave Divider */}
-        <svg
-          className="w-full h-[120px] block leading-none "
-          viewBox="0 0 1440 150"
-          preserveAspectRatio="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            fill="#BFDBFE" // Match this with the next section (About's bg)
-            d="
-        M0,80 
-        C120,40 240,120 360,80 
-        C480,40 600,120 720,80 
-        C840,40 960,120 1080,80 
-        C1200,40 1320,110 1440,80 
-        L1440,150 L0,150 Z"
-          />
-        </svg>
+   <svg
+  className="w-full h-[120px] block leading-none"
+  viewBox="0 0 1440 120"
+  preserveAspectRatio="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+    <linearGradient id="heroToBlue200" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stopColor="#60A5FA" />  {/* blue-400 */}
+      <stop offset="100%" stopColor="#BFDBFE" /> {/* blue-200 */}
+    </linearGradient>
+  </defs>
+  <path
+    fill="url(#heroToBlue200)"
+    d="
+      M0,0 
+      C360,80 1080,40 1440,100 
+      L1440,120 
+      L0,120 
+      Z"
+  />
+</svg>
+
         <div className="relative z-10">
+
           <AboutSection />
         </div>
       </section>

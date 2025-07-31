@@ -2,8 +2,8 @@ export default function ContactSection() {
   return (
     <section className="bg-blue-300 px-6 marker-font -mt-1 pt-2" id="contact">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl md:text-5xl font-bold text-blue-600 mb-6">Get in Touch</h2>
-        <p className="text-lg text-blue-900 mb-12">
+        <h2 className="text-5xl font-bold text-blue-600 mb-6">Get in Touch</h2>
+        <p className="text-xl md:text-2xl text-blue-500 mb-12">
           Have questions or ready to book a cleaning? Fill out the form below and our team will get back to you shortly.
         </p>
 
@@ -15,7 +15,7 @@ export default function ContactSection() {
         >
           {/* Name */}
           <div>
-            <label htmlFor="name" className="block text-blue-900 font-medium mb-1">
+            <label htmlFor="name" className="block text-blue-600 text-xl mb-1">
               Full Name
             </label>
             <input
@@ -30,7 +30,7 @@ export default function ContactSection() {
 
           {/* Email */}
           <div>
-            <label htmlFor="email" className="block text-blue-900 font-medium mb-1">
+            <label htmlFor="email" className="block text-blue-600 text-xl mb-1">
               Email Address
             </label>
             <input
@@ -45,7 +45,7 @@ export default function ContactSection() {
 
           {/* Phone */}
           <div>
-            <label htmlFor="phone" className="block text-blue-900 font-medium mb-1">
+            <label htmlFor="phone" className="block text-blue-600 text-xl mb-1">
               Phone Number
             </label>
             <input
@@ -59,7 +59,7 @@ export default function ContactSection() {
 
           {/* Message */}
           <div>
-            <label htmlFor="message" className="block text-blue-900 font-medium mb-1">
+            <label htmlFor="message" className="block text-blue-600 text-xl mb-1">
               Message
             </label>
             <textarea
@@ -84,21 +84,21 @@ export default function ContactSection() {
         </form>
 
         {/* Contact Info */}
-        <div className="mt-12 text-blue-900 text-2xl">
+        <div className="mt-12 text-blue-600 text-xl md:text-2xl">
           Or reach us directly at:
-          <ul className="mt-2 space-y-1 list-disc list-inside text-blue-900">
+          <ul className="mt-2 space-y-1 list-disc list-inside text-blue-600">
             <li>
-              Cristina – <a href="tel:+18202021062" className="text-blue-600">+1 (820) 202-1062</a>
+              Cristina – <a href="tel:+18202021062" className="text-blue-800">+1 (820) 202-1062</a>
             </li>
             <li>
-              Jonathan – <a href="tel:+18055745651" className="text-blue-600">+1 (805) 574-5651</a>
+              Jonathan – <a href="tel:+18055745651" className="text-blue-800">+1 (805) 574-5651</a>
             </li>
             <li>
-              Darrell – <a href="tel:+18203808067" className="text-blue-600">+1 (820) 380-8067</a>
+              Darrell – <a href="tel:+18203808067" className="text-blue-800">+1 (820) 380-8067</a>
             </li>
           </ul>
           <div className="mt-2">
-            Or email us at <a href="mailto:info@805cleaningcrew.com" className="text-blue-600">info@805cleaningcrew.com</a>
+            Or email us at <a href="mailto:info@805cleaningcrew.com" className="text-blue-800">info@805cleaningcrew.com</a>
           </div>
         </div>
       </div>

@@ -8,17 +8,17 @@ export default function AboutSection() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 items-center ">
         {/* Text Content */}
         <div>
-          <h2 className="text-3xl md:text-5xl font-bold text-blue-600  mb-6 text-center">
+          <h2 className="text-5xl font-bold text-blue-600 mb-6 text-center">
             About 805 Cleaning Crew
           </h2>
-          <p className="text-blue-900 text-lg mb-4">
-            At 805 Cleaning Crew, we’re more than just cleaners—we’re caretakers of your space. Based in the heart of the Central Coast, we specialize in residential, commercial, and move-in/move-out cleaning services that make your property shine.
+          <p className="text-blue-500 text-xl md:text-2xl mb-4">
+            805 Cleaning Crew is your trusted partner for residential, commercial, and move-in/move-out cleaning across California’s Central Coast.
           </p>
-          <p className="text-blue-900 text-lg mb-4">
-            With a focus on reliability, eco-friendly products, and customer satisfaction, our team is dedicated to delivering spotless results every time. Whether it’s a one-time deep clean or ongoing service, we tailor every job to your needs.
+          <p className="text-blue-500 text-xl md:text-2xl mb-4">
+            We use eco-friendly products and tailor every service to your needs—delivering spotless results with care and attention to detail.
           </p>
-          <p className="text-blue-900  text-lg">
-            Experience the difference of a local crew that truly cares. Your clean, your way — with 805 Cleaning Crew.
+          <p className="text-blue-500 text-xl md:text-2xl">
+            Experience reliable, caring, local cleaning with 805 Cleaning Crew.
           </p>
         </div>
 
@@ -29,7 +29,7 @@ export default function AboutSection() {
             alt="805 Cleaning Crew team"
             layout="fill"
             objectFit="contain"
-            className="rounded-xl"
+            className=""
           />
         </div>
       </div>
