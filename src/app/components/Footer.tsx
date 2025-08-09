@@ -29,7 +29,7 @@ export default function Footer() {
         <div>
           <h4 className="text-lg font-semibold mb-4  text-blue-200">Contact Us</h4>
           <ul className=" text-blue-200 text-md space-y-2">
-            <li><a href="tel:+18055551234" className="hover:text-blue-400">(820) 380-8067</a></li>
+            <li><a href="tel:+18055551234" className="hover:text-blue-400">+1 (805) 574-5651</a></li>
             <li><a href="mailto:info@805cleaningcrew.com" className="hover:text-blue-400">info@805cleaningcrew.com</a></li>
             <li>Central Coast, CA</li>
           </ul>
