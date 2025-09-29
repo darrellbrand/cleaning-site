@@ -87,7 +87,7 @@ export default function ContactSection() {
         <div className="mt-12 text-blue-600 text-xl md:text-2xl">
               Reach us directly at:
             <h1 className=" text-blue-600">
-              <a href="tel:+18055745651" className="text-blue-800">+1 (805) 574-5651</a>
+              <a href="tel:+18055745651" className="text-blue-800">1 + (820) 202-1062</a>
             </h1>
           <div className="mt-2">
             Or email us at <a href="mailto:info@805cleaningcrew.com" className="text-blue-800">info@805cleaningcrew.com</a>
