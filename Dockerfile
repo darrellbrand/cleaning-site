@@ -15,7 +15,7 @@ COPY . .
 RUN npm run build
 
 # Tell Next.js to use the dynamic PORT assigned by Heroku
-ENV PORT 8080
+ENV PORT=8080
 
 # Expose the dynamic port (Heroku uses its own PORT env var)
 EXPOSE 8080
